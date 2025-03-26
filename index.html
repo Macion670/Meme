@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Sacramento&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #FFCBA4, #A68BFA);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+            padding: 20px;
+        }
+
+        /* Resume Container */
+        .resume {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(15px);
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(166, 139, 250, 0.5);
+            overflow: hidden;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background: rgba(255, 203, 164, 0.9);
+            color: white;
+            padding: 30px;
+            width: 100%;
+            max-width: 300px;
+            text-align: center;
+            flex: 1;
+        }
+
+        .sidebar img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 5px solid #A68BFA;
+            margin-bottom: 10px;
+        }
+
+        .sidebar h1 {
+            font-size: 28px;
+            font-family: 'Sacramento', cursive;
+            color: #A68BFA;
+        }
+
+        .sidebar p {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        /* Main Content */
+        .main {
+            flex: 2;
+            padding: 30px;
+            width: 100%;
+            min-width: 400px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            border-left: 6px solid #A68BFA;
+            transition: 0.3s;
+        }
+
+        .section h2 {
+            color: #A68BFA;
+            border-bottom: 2px solid #A68BFA;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 6px 0;
+            font-size: 16px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .resume {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .sidebar {
+                width: 100%;
+                max-width: none;
+                text-align: center;
+            }
+
+            .main {
+                width: 100%;
+                min-width: unset;
+            }
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #A68BFA;
+            margin-top: 20px;
+            padding-bottom: 15px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="resume">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <img src="photos.jpg" alt="Profile Picture">
+            <h1>Jessel Mae C. Macion</h1>
+            <p>Purok Rose, Sugod, Tukuran, Zamboanga Del Sur</p>
+            <p>📞09852634088</p>
+            <p>📧 <strong>Email:</strong> jesselmeme123@gmail.com</p>
+            <p>📍 <strong>Location:</strong> Sugod, Tukuran</p>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main">
+            <div class="section">
+                <h2>Career Objective</h2>
+                <p>obtain a position that will enable me to use my skills, 
+       educational background, and ability to work well with people.    </p>
+            </div>
+
+            <div class="section">
+                <h2>Educational Background</h2>
+                <ul>
+                    <li>📖 <strong>Elementary:</strong> Sugod Elementary School</li>
+                    <li>📘 <strong>Secondary:</strong> Tukuran Technical Vocational High School</li>
+                    <li>🎓 <strong>Tertiary:</strong> Zamboanga Del Sur Provincial Government College - Tukuran Campus</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Teamwork </li>
+                    <li>Communication</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Reference</h2>
+                <p><strong>Reychelle Magsalay</strong></p>
+                <p>📍 Alindahaw, Tukuran</p>
+                <p>📞 09129867408</p>
+                
+                 </ul>
+
+        <h2>Hobbies</h1>
+        <ul>
+            <li>Listening to Music</li>
+            <li>Reading Wattpad</li>
+          <li>Eating</li>
+          <li>sleeping</li>
+          <li>playing games</li>
+           
+        </ul>
+            </div>
+
+            <div class="footer">
+                <p>✨ Designed with love by Rhea M. Magsalay ✨</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
